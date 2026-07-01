@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingresar con Tarjeta de Crédito/Débito</title>
+    <link href="../css/formularios.css" rel="stylesheet">
+
+</head>
+
+	<body background="../imagenes/banner.JPG" style="background-repeat: no-repeat;">
+		<form action="">
+            <h1>Complete el formulario</h1>
+            
+            <fieldset>
+                <legend>Datos de pago</legend>
+               
+                <div>
+                <center>
+                <h4>Tarjetas admitidas</h4>
+                <img id="tarjetas" src="../imagenes/tarjetas.png" alt="">
+                </div>
+                </center>
+                <br><br>
+
+                <label for="">Nombre del titular</label>
+                <br><br>
+                <input class="caja" type="text" size="35" required placeholder="Como aparece en la tarjeta"> 
+                <br><br>
+
+                <label for="">Número de Tarjeta</label>
+                <br><br>
+                <input class="caja" type="text" size="21" placeholder="AAAA-BBBB-CCCC-DDDD">
+                <br><br>
+
+                <label for="">Código de seguridad/CVV</label>
+                <br><br>
+                <input class="caja" type="text" size="3" maxlength="3" placeholder="123" required>
+                <br><br>
+
+                <label for="">Fecha de Expiración</label>
+                <br><br>
+                <input class="caja" type="month" name="" id="" required>
+                <br><br>
+
+                <center>
+                    <input id="pagar" type="submit" value="Pagar">
+                    <input id="cancelar" type="reset" value="Cancelar">
+                </center>
+            </fieldset>
+        </form>
+	</body>
+    <script>
+
+    var pagar = document.getElementById("pagar");
+
+    pagar.addEventListener("click", function() {
+    window.location.href = "../paginas/3_PagoExitoso.html";
+    });
+    
+    var cancelar = document.getElementById("cancelar");
+
+    cancelar.addEventListener("click", function() {
+    window.location.href = "../paginas/HomePage.html";
+    });
+
+    </script>
+</html>

@@ -1,0 +1,362 @@
+* {
+	margin: 0;
+	border: 0;
+        padding: 0;
+}
+body {
+	background: #E0EAFC;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1{
+	font-size: 45px;
+}
+
+/*-------------------------Barra de busqueda-------------------------*/
+
+.contenedor-busqueda {
+	text-align: center;
+	position: relative; 
+  }
+  
+  .entrada-busqueda {
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	width: 200%;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 18px;
+	cursor: pointer; 
+  }
+  
+  .entrada-busqueda:focus + .lista-elementos {
+	display: block;
+	position: absolute;
+	top: 100%; 
+	left: 0;
+	z-index: 1; 
+	background-color: #fff; 
+	border: 1px solid #ccc; 
+	padding: 0; 
+	margin: 0; 
+	max-height: 300px; 
+	overflow-y: auto; 
+  }
+  
+  .lista-elementos {
+	list-style: none;
+	display: none; 
+	width: 210%;
+  }
+  
+  .lista-elementos li {
+	padding: 5px;
+	border-bottom: 1px solid #ccc;
+  }
+  
+  .lista-elementos li:last-child {
+	border-bottom: none;
+  }
+  
+  .contenido {
+	padding: 20px; 
+	}
+
+  /*-----------------------------------------------------------------------------------------------------------------*/
+
+#contenedor-juegos {
+	width: 50%;
+}
+
+.espacio-juegos {
+	padding-top: 45px;
+}
+
+#contenedor {
+	width: 95%;
+	margin: 30px auto;
+}
+
+#sesion {
+	background-color: black;
+	padding: 5px 5px;
+}
+
+#sesion a {
+	color: white;
+}
+
+#sesion a:hover {
+	color: aqua;
+}
+
+.izquierda {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	
+}
+
+/* aside derecha */
+
+.derecha {
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#promo {
+	width: 300px; height: 500px; 
+}
+
+section figure figcaption {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sociales:hover {
+	cursor: pointer;
+}
+
+.facebook:hover {
+	cursor: pointer;
+}
+
+.nav li {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#titulo {
+	color: black;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.barra {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 20px;
+	padding-left: 5%;
+	padding-right: 5%;
+	font-weight: bold;
+
+	position: fixed;
+    z-index: 9;
+    top: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid #cecece;
+    box-shadow: 5px 5px 5px 5px #9b9b9b8f;
+}
+
+.facebook:hover {
+	cursor: pointer;
+}
+
+.nav{
+	padding: 0 30px;
+}
+
+.nav li {
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover{
+	color: aqua;
+}
+
+#banner {
+	width: 1445px; margin: auto; height: 300px;
+}
+
+/*  header  */
+header {
+	background-color: black;
+}
+header h1 {
+	padding: 20px 40px;
+	text-align: center;
+	color: #C4E0E5;
+}
+header img {
+	width: 100%;
+	vertical-align: bottom;
+}
+
+/*  nav  */
+nav {
+	background-color:white;
+}
+nav a {
+	padding: 15px;
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+}
+
+.juegos {
+	width: 200px; height: 220px;
+	position: relative;
+	border-radius: 10px; 
+	border: 1px solid black;
+}
+
+.juegos:hover  {
+	transform: scale(1.1, 1.1);
+}
+
+/*  main  */
+main {
+	display: flex;
+}
+
+/*  aside */
+aside {
+	
+	width: 25%;
+	padding: 20px;
+	background-color: white;
+}
+
+.derecha img {
+	width: 300px;
+	padding: 30px;
+	height: 80%;
+	border: #C4E0E5 2px solid;
+	border-radius: 10px;
+}
+
+/*  aside izquierda  */
+aside h3 {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	padding: 20px 0px;
+	border-bottom: 2px solid #C4E0E5;
+	padding-bottom: 10px;
+}
+aside a {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	padding: 5px 0px;
+	display: block;
+	color: rgb(42, 42, 42);
+	text-decoration: underline;
+	
+}
+
+.destacado {
+	font-size: medium;	
+}
+
+/*  section  */
+section {
+	width: 50%;
+	padding: 5px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	background-color: white;
+}
+
+section figure img {
+	width: 80%;
+	margin: 10px auto;
+	display: block;
+}
+section figure figcaption {
+	margin: 10px;
+	text-align: center;
+}
+
+/*  footer  */
+footer {
+	padding: 10px;
+	text-align: center;
+	background-color: black;
+}
+footer p {
+	margin-bottom: 20px;
+	margin-top: 10px;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+div aside p {
+	color: white;
+	display: inline-flex;
+}
+
+footer div {
+	background-color: black;
+}
+
+.contenedor-footer {
+	color: white;
+}
+
+.footer-row {
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+
+.footer-links {
+	width: 25%;
+	padding: 0 15px;
+	
+}
+
+.links a {
+	color: white;
+}
+
+.links li {
+	list-style: none;
+}
+
+footer {
+	padding: 50px 0px 50px 0px;
+}
+
+.footer-links h4{
+	font-size: 20px;
+	margin-bottom: 25px;
+	font-weight: 500;
+	border-bottom: 2px solid #C4E0E5;
+	padding-bottom: 10px;
+	display: inline-block;
+}
+
+.footer-links ul li {
+	font-size: 17px;
+	text-decoration: none;
+	display: block;
+	margin-bottom: 15px;
+	transition: all .3s ease;
+}
+
+.links a:hover{
+
+	color: aqua;
+
+}
+
+.facebook {
+	width: 38pxpx; height: 38px;
+}
+
+.banner{
+	width: 100%;
+	height: 300px;
+	background-image: url(../imagenes/banner.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}

@@ -1,0 +1,401 @@
+* {
+	margin: 0;
+	border: 0;
+        padding: 0;
+}
+body {
+	background: #E0EAFC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1{
+	font-size: 45px;
+}
+
+.sociales:hover {
+	cursor: pointer;
+}
+
+.facebook:hover {
+	cursor: pointer;
+}
+
+#contenedor {
+	width: 95%;
+	margin: 30px auto;
+}
+
+#sesion {
+	background-color: black;
+	padding: 5px 5px;
+}
+
+.sociales:hover {
+	cursor: pointer;
+}
+
+.facebook:hover {
+	cursor: pointer;
+}
+
+#sesion a {
+	color: white;
+}
+
+#sesion a:hover {
+	color: aqua;
+}
+
+.izquierda {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+/* aside derecha */
+
+.derecha {
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.promo {
+	width: 300px; height: 300px;
+}
+
+section figure figcaption {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav li {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#titulo {
+	color: black;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.barra {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 20px;
+	padding-left: 5%;
+	padding-right: 5%;
+	font-weight: bold;
+
+	position: fixed;
+    z-index: 9;
+    top: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid #cecece;
+    box-shadow: 5px 5px 5px 5px #9b9b9b8f;
+}
+
+.nav{
+	padding: 0 30px;
+}
+
+
+ul li {
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover{
+	color: aqua;
+}
+
+#banner {
+	width: 1445px; margin: auto; height: 300px;
+}
+
+/*  header  */
+header {
+	background-color: black;
+}
+header h1 {
+	padding: 20px 40px;
+	text-align: center;
+	color: #C4E0E5;
+}
+header img {
+	width: 100%;
+	vertical-align: bottom;
+}
+
+/*  nav  */
+nav {
+	background-color:white;
+}
+nav a {
+	padding: 15px;
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+}
+
+/*  main  */
+main {
+	display: flex;
+}
+
+/*  aside */
+aside {
+	width: 25%;
+	padding: 20px;
+	background-color: white;
+}
+
+/*  aside izquierda  */
+aside h3 {
+	padding: 20px 0px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+
+}
+aside a {
+	padding: 5px 0px;
+	display: block;
+	color: rgb(42, 42, 42);
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.destacado {
+	font-size: medium;	
+}
+
+/*  section  */
+section {
+	width: 50%;
+	padding: 5px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	background-color: white;
+}
+
+/*  footer  */
+footer {
+	padding: 10px;
+	text-align: center;
+	background-color: black;
+}
+footer p {
+	margin-bottom: 10px;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.seccion-noticias{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    
+}
+
+.seccion-noticias a {
+    font-size: 20px;
+    color: skyblue;
+}
+
+.seccion-noticias a:hover{
+    color: aqua;
+}
+
+.autor {
+    color: gray;
+}
+
+.seccion-noticias div img {
+    width: 100%; height: 100%; object-fit: cover;
+}
+
+.noticia{
+    padding-left: 25px;
+}
+
+.titulo {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+footer {
+	padding: 10px;
+	text-align: center;
+	background-color: black;
+}
+footer p {
+	margin-bottom: 20px;
+	margin-top: 10px;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+div aside p {
+	color: white;
+	display: inline-flex;
+}
+
+footer div {
+	background-color: black;
+	font-family:'Times New Roman', Times, serif 
+}
+
+.contenedor-footer {
+	color: white;
+}
+
+.footer-row {
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+
+.footer-links {
+	width: 25%;
+	padding: 0px 15px;
+	
+}
+
+.links a {
+	color: white;
+	text-decoration: none;
+}
+
+.links li {
+	list-style: none;
+}
+
+footer {
+	padding: 50px 0px 50px 0px;
+}
+
+.footer-links h4{
+	font-size: 20px;
+	margin-bottom: 25px;
+	font-weight: 500;
+	border-bottom: 2px solid #C4E0E5;
+	padding-bottom: 10px;
+	display: inline-block;
+}
+
+.footer-links ul li {
+	font-size: 17px;
+	text-decoration: none;
+	display: block;
+	margin-bottom: 15px;
+	transition: all .3s ease;
+}
+
+.links a:hover{
+
+	color: aqua;
+
+}
+
+.facebook {
+	width: 38px; height: 38px;
+}
+
+.banner{
+	width: 100%;
+	height: 300px;
+	background-image: url(../imagenes/banner.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.titulo {
+	border-bottom: 2px solid #C4E0E5;
+	padding-bottom: 10px;
+	font-weight: bold;
+}
+
+.izquierda h3 {
+	border-bottom: 2px solid #C4E0E5;
+	padding-bottom: 10px;
+}
+
+.info-text{
+	display: grid;
+	grid-template-columns: 30% 65%;
+	gap: 5%;
+	background-color: #ffffff;
+	margin: 25px 0px;
+}
+
+.info-text:hover{
+	background-color: #ececec;
+}
+
+/* EFECTO DE REBOTE*/
+
+.imagen-rebote {
+    cursor: pointer; 
+}
+
+@keyframes rebote {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-20px);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
+}
+
+.imagen-rebote.rebote {
+    animation: rebote 1s ease;
+}
+
+/*EFECTO DE DESPLAZAMIENTO*/
+
+.imagen-desplazamiento {
+    cursor: pointer; 
+}
+
+@keyframes desplazamientoDesvanecimiento {
+    0% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+}
+
+.desplazamiento-desvanecimiento {
+    animation: desplazamientoDesvanecimiento 2s forwards; 
+}
+
+/*EFECTO ROTACION IMAGENES*/
+.imagen-rotacion {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease; /* Agrega una transición para un efecto más suave */
+    margin: 10px; /* Añade un margen entre las imágenes */
+}
+
+/* Estilo para el hover de rotación */
+.imagen-rotacion:hover {
+    transform: rotate(15deg);
+    /* Ajusta el ángulo de rotación según sea necesario */
+}

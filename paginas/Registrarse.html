@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse</title>
+    <link href="../css/formularios.css" rel="stylesheet">
+
+</head>
+
+	<body background="../imagenes/banner.JPG">
+		<form action="">
+            <h1>Registrate</h1>
+            
+            <fieldset>
+                <legend>Datos Personales</legend>
+            
+                <label for="">Nombres</label>
+                <br><br>
+                <input class="caja" type="text" size="40" required> 
+                <br><br>
+
+                <label for="">Apellidos</label>
+                <br><br>
+                <input class="caja" type="text" size="40" maxlength="8" required>
+                <br><br>
+
+                <label for="">Correo</label>
+                <br><br>
+                <input class="caja" type="email" placeholder="usuario@hotmail.com">
+                <br><br>
+
+                <label for="">Contraseña</label>
+                <br><br>
+                <input class="caja" type="password" size="40" maxlength="8" required>
+                <br><br>
+
+                <label for="">Fecha de nacimiento</label>
+                <br><br>
+                <input class="caja" type="date">
+                <br><br>
+                       
+                <label for="">Sexo</label>
+                <br><br>
+                <input type="radio" name="sexo">Masculino
+                <input type="radio" name="sexo">Femenino
+                <br><br>
+
+                <center>
+                    <input id="registro" type="submit" value="Registrarse">
+                    <input id="cancelar" type="reset" value="Cancelar">  
+                </center>
+            </fieldset>
+        </form>
+	</body>
+    <script>
+    
+    var registro = document.getElementById("registro");
+
+    registro.addEventListener("click", function() {
+    window.location.href = "../paginas/2_RegistroExitoso.html";
+    });
+
+    var cancelar = document.getElementById("cancelar");
+
+    cancelar.addEventListener("click", function() {
+    window.location.href = "../paginas/HomePage.html";
+    });
+
+    </script>
+</html>

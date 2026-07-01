@@ -1,0 +1,97 @@
+fieldset{
+    width: 30%; margin: auto; margin-bottom: 25px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.404);
+}
+
+h1{
+    text-align: center; color: whitesmoke; font-variant: small-caps; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+
+body{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+
+label{
+    width: 90px; 
+    font-variant: small-caps;
+}
+
+#aceptar{
+    height: 30px;
+    color: black;
+    background-color: greenyellow;
+}
+
+h4 {
+    font-variant: small-caps;
+    font-size: 18px;
+}
+
+#tarjetas {
+    width: 60%;
+    border: black;
+    
+}
+
+#pagar{
+    height: 30px;
+    color: black;
+    padding-inline: 40px;
+    background-color: greenyellow;
+}
+
+#cancelar{
+    height: 30px;
+    background-color: rgba(255, 0, 0, 0.63);
+}
+
+#aceptar:hover {
+   cursor: pointer;
+   background-color: rgb(121, 179, 35);
+}
+
+#registro{
+    height: 30px;
+    color: black;
+    background-color: greenyellow;
+}
+
+#registro:hover {
+    cursor: pointer;
+    background-color: rgb(121, 179, 35);
+ }
+ 
+
+#pagar:hover{
+    cursor: pointer;
+    background-color: rgb(121, 179, 35);
+}
+
+#cancelar:hover{
+    cursor: pointer;
+    background-color:  rgba(179, 3, 3, 0.788);
+}
+
+.caja{
+    height: 30px; background-color: rgb(233, 233, 233);
+    
+}
+
+legend{
+    text-align: left; color: black; font-weight: bold; font-size: 20px; font-style: italic;  font-variant: small-caps;
+}
+
+input{
+    background-color: white; border-radius: 5px; font-variant: small-caps;
+}
+
+form label {
+    font-style: bold;
+}

@@ -1,0 +1,204 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo Gamer</title>
+	<link href="../css/HomeEstilo.css" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+
+<body>
+	<div id="contenedor">
+		<header>
+			<nav class="barra">
+				<div><h1 id="titulo">MUNDO GAMER</h1></div>
+					<ul class="nav">
+						
+						<li><a class="botones" href="../paginas/HomePage.html">HOME</a> </li>
+							
+						<li><a class="botones" href="../paginas/JuegosPage.html">JUEGOS</a></li>
+						
+						<li><a class="botones" href="../paginas/ExtrasPage.html">EXTRAS</a></li>
+					
+						<li><a class="botones" href="../paginas/NoticiasPage.html">NOTICIAS</a> </li>
+
+						<li id="sesion"><a href="../paginas/IniciarSesionPage.html">INICIAR SESIÓN</a></li>
+
+						<li class="submenu">
+							<img src="../imagenes/car.svg"  id="mostrar-carrito" alt="carrito">
+						<div id="carrito">
+							<table id="lista-carrito">
+								<thead>
+									<tr>
+										<th>Imagen</th>
+										<th>Nombre</th>
+										<th>Precio</th>
+									</tr>
+								</thead>
+							</table>
+							<a href="#" id="vaciar-carrito" class="btn-1">Vaciar Carrito</a>
+
+						</div>
+						</li>
+						
+					</ul>
+			</nav>
+			</div>
+
+		</header>
+		<div class="banner"></div>
+		
+		<main>
+			<aside class="izquierda">
+				<div id="contenedor-hora">
+					<center>
+						<div id="pf">Fecha : </div>
+						<div id="ph">Hora  : </div>
+					</center>
+				</div>
+				<h3>Sobre nosotros</h3>
+				<a class="botones" href="../paginas/HomePage.html">Inicio</a>
+				<a class="botones" href="../paginas/ConocenosHome.html">Conocenos</a>
+				<a class="botones" href="../paginas/Sedes.html">Sedes</a>
+			</aside>
+			<section id="contenedor-juegos"> 
+				
+				<figure>
+					<figcaption class="title" style="font-size: 30px;">Destacados</figcaption>
+					<a href="../Est.pag/gta.html"><img class="juegos" src="../imagenes/gtav.png"></a>
+					<figcaption>GTA V</figcaption>
+					<figcaption>19.99 USD</figcaption>
+					<a href="#"class="agregar-carrito btn-2" data-id="1">Comprar</a><br> 
+				</figure>
+				
+				<figure class="espacio-juegos">
+					<a href="../Est.pag/dayz.html"><img class="juegos" src="../imagenes/dayz.png"></a>
+					<figcaption>Day Z</figcaption>
+					<figcaption>44.99 USD</figcaption>
+					<a href="#" class="agregar-carrito btn-2" data-id="2">Comprar</a>
+
+				</figure>
+				<figure class="espacio-juegos">
+					<a href="../Est.pag/elden.html"><img class="juegos" src="../imagenes/eldenring.png"></a>
+					<figcaption>Elden Ring</figcaption>
+					<figcaption>59.99 USD</figcaption>
+					<a href="#" class="agregar-carrito btn-2" data-id="3">Comprar</a>
+
+				</figure>
+				<figure class="espacio-juegos">
+					<a href="../Est.pag/rust.html"><img class="juegos" src="../imagenes/rust.png"></a>
+					<figcaption>Rust</figcaption>
+					<figcaption>39.99 USD</figcaption>
+					<a href="#" class="agregar-carrito btn-2" data-id="4">Comprar</a>
+
+				</figure>
+				<figure class="espacio-juegos">
+					<a href="../Est.pag/trials.html"><img class="juegos" src="../imagenes/outlast.png"></a>
+					<figcaption>Outlast Trials</figcaption>
+					<figcaption>29.99 USD</figcaption>
+					<a href="#" class="agregar-carrito btn-2" data-id="5">Comprar</a>
+
+				</figure>
+				<figure class="espacio-juegos">
+					<a href="../Est.pag/CoD.html"><img class="juegos" src="../imagenes/codmw.png"></a>
+					<figcaption>CoD Modern Warfare</figcaption>
+					<figcaption>69.99 USD</figcaption>
+					<a href="#" class="agregar-carrito btn-2" data-id="6">Comprar</a>
+
+				</figure>
+				<figure class="espacio-juegos">
+					<a href="../Est.pag/control.html"><img class="juegos" src="../imagenes/control.jpg"></a>
+					<figcaption>Control</figcaption>
+					<figcaption>10.89 USD</figcaption>
+					<a href="#" class="agregar-carrito btn-2" data-id="7">Comprar</a>
+
+				</figure>
+				<figure class="espacio-juegos">
+					<a href="../Est.pag/thefall.html"><img class="juegos" src="../imagenes/fall.jpg"></a>
+					<figcaption>The Fall</figcaption>
+					<figcaption>7.27 USD</figcaption>
+					<a href="#" class="agregar-carrito btn-2" data-id="8">Comprar</a>
+
+				</figure>
+				<figure class="espacio-juegos">
+					<a href="../Est.pag/wacht.html"><img class="juegos" src="../imagenes/dogs.jpg"></a>
+					<figcaption>Wacht Dogs </figcaption>
+					<figcaption>8.30 USD</figcaption>
+					<a href="#" class="agregar-carrito btn-2" data-id="9">Comprar</a>
+
+				</figure>
+				<figure class="espacio-juegos">
+					<a href="../Est.pag/aventura3.html"><img class="juegos" src="../imagenes/aventura3.jpg"></a>
+					<figcaption>Dave the diver</figcaption>
+					<figcaption>9.99 USD</figcaption>
+					<a href="#" class="agregar-carrito btn-2" data-id="10">Comprar</a>
+
+				</figure>
+				<figure class="espacio-juegos">
+					<a href="../Est.pag/aventura4.html"><img class="juegos" src="../imagenes/aventura4.jpg"></a>
+					<figcaption>TheHunter Call Of the Wild</figcaption>
+					<figcaption>23.99 USD</figcaption>
+					<a href="#" class="agregar-carrito btn-2" data-id="11">Comprar</a>
+
+				</figure>
+				<figure class="espacio-juegos">
+					<a href="../Est.pag/aventura5.html"><img class="juegos" src="../imagenes/aventura5.jpg"></a>
+					<figcaption>Fallout 4</figcaption>
+					<figcaption>29.99 USD</figcaption>					
+					<a href="#" class="agregar-carrito btn-2" data-id="12">Comprar</a>
+				</figure>
+			</section>
+			<aside class="derecha">
+				<h3>Novedades</h3>
+				<center><img id="promo" src="../imagenes/ps promo.png"></center>
+			</aside>
+		</main>
+
+		<footer>
+			
+			<div class="contenedor-footer">
+				
+				<div class="footer-row">
+					
+					<div class="footer-links">
+						<h4>Nosotros</h4>
+						<ul class="links">
+							<li> <a href="#">MundoGamer.com</a> </li>
+							<li> <a href="#">Soporte técnico</a> </li>
+							<li> <a href="#">Blog</a> </li>
+							<li> <a href="#">Foros</a> </li>
+						</ul>
+					</div>
+				
+				    <div class="footer-links">
+						<h4>Ayuda</h4>
+						<ul class="links"> 
+							<li> <a href="#">Términos de uso</a> </li>
+							<li> <a href="#">Política de privacidad</a> </li>
+							<li> <a href="#">Configurar cookies</a> </li>
+							<li> <a href="#">Licencias</a> </li>
+						</ul>
+					</div>
+
+				</div>
+			
+			</div>
+			
+			<p>© 2023 Mundo Gamer Entertainment . Todos los derechos reservados.</p>
+				<center><p>Puedes seguirnos en:</p></center>
+			<a href="https://x.com/MundoGamer95779?t=wueJPIDSEtABySDEn0JzbA&s=09" target="_blank"><img class="sociales" src="../imagenes/twitter.png"></a>
+			<img class="sociales" src="../imagenes/youtube.png">
+			<a href="https://www.facebook.com/profile.php?id=61554101038457" target="_blank"><img class="facebook" src="../imagenes/facebook.png" alt=""></a>
+		
+		</footer>
+	
+	</div>
+</body>
+
+<script src="../js/home.js"></script>
+<script src="../js/efectosnormales.js"></script>
+<script src="../js/agregago.js"></script>
+
+</html>
